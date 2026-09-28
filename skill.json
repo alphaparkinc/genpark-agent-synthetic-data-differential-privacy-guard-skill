@@ -1,0 +1,30 @@
+{
+  "name": "genpark-agent-synthetic-data-differential-privacy-guard-skill",
+  "version": "1.0.0",
+  "description": "Differential privacy epsilon-noise generator and quasi-identifier redaction kernel protecting tabular data releases from re-identification.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "differential-privacy",
+    "data-sanitization",
+    "pii-scrubber",
+    "laplace-mechanism",
+    "privacy-guard",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "add_laplace_noise",
+      "description": "Add differential privacy Laplace noise to numeric aggregates."
+    },
+    {
+      "name": "anonymize_dataset",
+      "description": "Sanitize tabular dataset applying k-anonymity masking and DP noise."
+    },
+    {
+      "name": "run_benchmark_differential_privacy",
+      "description": "Execute differential privacy benchmark."
+    }
+  ]
+}
